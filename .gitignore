@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Clinical and patient-level data
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.rds
+*.parquet
+*.feather
+
+# Local data directories
+data/raw/
+data/processed/
+data/derived/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
